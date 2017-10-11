@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+.side-bar{
+  position: relative;
+  width: 100%;
+  float: none;
+
+}
+.side-bar .nav,
+.side-bar .tag-list{
+    position: relative;
+    float: left;
+    width: 50%;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.main{
+  width: 100%;
+    padding: 10px 10px;
+}
+.article-list{
+
+  margin: 0;
+}
+.side-bar .nav,
+.side-bar .tag-list{
+  display: none;
+}
+#menu-a{
+  display: block;
+}
+#menu-c:checked ~ .nav,
+#menu-c:checked ~ .tag-list{
+  display: block;
+}
+#menu-a{
+  font-size: 15px;
+  position: absolute;
+  top:2px;
+  right: 7px;
+}
